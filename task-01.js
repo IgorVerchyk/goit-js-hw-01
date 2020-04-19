@@ -1,5 +1,6 @@
-let name = "генератор защитного поля";
+const name = "генератор защитного поля";
 let prise = "1000";
-console.log("Выбран " + name + ", цена за штуку " + prise + " кредитов");
+const message = `Выбран ${name} , цена за штуку ${prise} кредитов`;
+console.log(message);
 prise = "2000";
-console.log("Выбран " + name + ", цена за штуку " + prise + " кредитов");
+console.log(message);

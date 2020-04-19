@@ -1,4 +1,4 @@
-let credits = 23580,
+const credits = 23580,
   pricePerDroid = 3000,
   droidQuantity = prompt("Сколько дроидов купить?", 0),
   totalPrice = +droidQuantity * pricePerDroid,

@@ -1,5 +1,5 @@
-let total = 100,
-  ordered = 50;
+const total = 100;
+let ordered = 50;
 console.log(
   total >= ordered
     ? "Заказ оформлен, с вами свяжется менеджер"

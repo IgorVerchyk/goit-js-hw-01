@@ -7,27 +7,31 @@ if (destination === null) {
   destination = destination.toLowerCase();
   switch (destination) {
     case "китай":
-      (country = "Китай"), (prise = 100);
+      country = "Китай";
+      prise = 100;
       alert(`Доставка в ${country} будет стоить ${prise} кредитов`);
       break;
     case "чили":
-      (country = "Чили"), (prise = 250);
+      country = "Чили";
+      prise = 250;
       alert(`Доставка в ${country} будет стоить ${prise} кредитов`);
       break;
     case "австралия":
-      (country = "Австралия"), (prise = 170);
+      country = "Австралия";
+      prise = 170;
       alert(`Доставка в ${country} будет стоить ${prise} кредитов`);
       break;
     case "индия":
-      (country = "Индия"), (prise = 80);
+      country = "Индия";
+      prise = 80;
       alert(`Доставка в ${country} будет стоить ${prise} кредитов`);
       break;
     case "ямайка":
-      (country = "Ямайка"), (prise = 120);
+      country = "Ямайка";
+      prise = 120;
       alert(`Доставка в ${country} будет стоить ${prise} кредитов`);
       break;
     default:
       alert("В вашей стране доставка не доступна");
-      break;
   }
 }
